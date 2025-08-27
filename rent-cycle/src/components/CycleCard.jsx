@@ -13,7 +13,7 @@ const CycleCard = ({ cycle, onBookNow }) => {
       />
       <h3 className="cycle-name">{cycle.name}</h3>
       <p className="cycle-type">Type: {cycle.type}</p>
-      <p className="cycle-price">${cycle.pricePerHour}/hour</p>
+      <p className="cycle-price">₹{cycle.pricePerHour}/hour</p>
       <p style={{ color: '#666', marginBottom: '1rem' }}>{cycle.description}</p>
       <button 
         className="btn" 
