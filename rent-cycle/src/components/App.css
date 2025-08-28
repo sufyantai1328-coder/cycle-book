@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #28a745;
+  padding: 1rem 2rem;
+}
+.navbar .logo {
+  color: white;
+}
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar .nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: url("https://source.unsplash.com/1600x600/?bicycle") center/cover no-repeat;
+  color: white;
+}
+.hero .btn {
+  background: #28a745;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hero .btn:hover {
+  background: #218838;
+}
+
+/* Cycles */
+.cycles {
+  padding: 2rem;
+  text-align: center;
+}
+.cycle-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cycle-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.cycle-card h3 {
+  margin: 0;
+}
+.cycle-card .btn {
+  margin-top: 10px;
+  background: #28a745;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.cycle-card .btn:hover {
+  background: #218838;
+}
+
+/* About & Contact */
+.about, .contact {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-form .btn {
+  background: #28a745;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.contact-form .btn:hover {
+  background: #218838;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #28a745;
+  color: white;
+  margin-top: 20px;
+}
