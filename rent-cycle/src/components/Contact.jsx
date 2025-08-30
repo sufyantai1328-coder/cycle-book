@@ -1,8 +1,9 @@
 import React from "react";
+import Header from "./Header";
 
 function Contact() {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h2>Contact Us</h2>
       <form className="contact-form">
         <input type="text" placeholder="Your Name" required />
